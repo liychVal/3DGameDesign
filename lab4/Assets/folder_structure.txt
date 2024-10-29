@@ -1,0 +1,67 @@
+
+©À©¤Resources
+©¦  ©¦  Materials
+©¦  ©¦  Prefabs
+©¦  ©¦  Textures
+©¦  ©¦  
+©¦  ©À©¤Materials
+©¦  ©¦  ©¦  boatSkin.mat
+©¦  ©¦  ©¦  devilSkin.mat
+©¦  ©¦  ©¦  Fantasy Skybox FREE
+©¦  ©¦  ©¦  mysky.mat
+©¦  ©¦  ©¦  priestSkin.mat
+©¦  ©¦  ©¦  shoreSkin.mat
+©¦  ©¦  ©¦  waterSkin.mat
+©¦  ©¦  ©¦  
+©¦  ©¦  ©¸©¤Fantasy Skybox FREE
+©¦  ©À©¤Prefabs
+©¦  ©¦      boat.prefab
+©¦  ©¦      devil.prefab
+©¦  ©¦      priest.prefab
+©¦  ©¦      river.prefab
+©¦  ©¦      shore.prefab
+©¦  ©¦      
+©¦  ©¸©¤Textures
+©¦          boat Skin.png
+©¦          devil.png
+©¦          priest.png
+©¦          shoreSkin.png
+©¦          water.png
+©¦          
+©¸©¤Scripts
+    ©¦  Actions
+    ©¦  Controllers
+    ©¦  Models
+    ©¦  Views
+    ©¦  
+    ©À©¤Actions
+    ©¦      CCActionManager.cs
+    ©¦      CCMoveToAction.cs
+    ©¦      CCSequenceAction.cs
+    ©¦      ISSActionCallback.cs
+    ©¦      SSAction.cs
+    ©¦      SSActionManager.cs
+    ©¦      
+    ©À©¤Controllers
+    ©¦      BoatCtrl.cs
+    ©¦      FirstController.cs
+    ©¦      ISceneController.cs
+    ©¦      IUserAction.cs
+    ©¦      JudgeController.cs
+    ©¦      Move.cs
+    ©¦      MoveCtrl.cs
+    ©¦      RoleCtrl.cs
+    ©¦      ShoreCtrl.cs
+    ©¦      SSDirector.cs
+    ©¦      
+    ©À©¤Models
+    ©¦      Boat.cs
+    ©¦      Click.cs
+    ©¦      ClickAction.cs
+    ©¦      Position.cs
+    ©¦      River.cs
+    ©¦      Role.cs
+    ©¦      Shore.cs
+    ©¦      
+    ©¸©¤Views
+            UserGUI.cs
