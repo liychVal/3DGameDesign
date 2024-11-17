@@ -29,16 +29,15 @@ public class UserGUI : MonoBehaviour
     bloodText = $"Life: {CurrentSceneController.blood}";
     scoreText = $"Score: {CurrentSceneController.score}";
 
-    // 如果游戏已经开始 (isStart 为 true)，则将按钮设为透明
+    // 隐藏按钮
     Color buttonColor = CurrentSceneController.isStart ? new Color(1, 1, 1, 0) : Color.white;
     
-    // 设置按钮颜色，透明时按钮不可见
-    GUI.color = buttonColor;  // 如果 isStart 为 true，则将按钮设为透明
+    GUI.color = buttonColor; 
     if(GUI.Button(new Rect(Screen.width*0.40f, Screen.height*0.40f, Screen.width*0.2f, Screen.height*0.1f), "Start")){
         CurrentSceneController.StartNewGame();
     }
 
-    // 重置颜色，确保后面的控件不受影响
+    // 重置颜色
     GUI.color = Color.white;
 
     // 显示游戏状态
